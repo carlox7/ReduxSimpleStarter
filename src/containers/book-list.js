@@ -7,7 +7,7 @@ import {bindActionCreators} from 'redux';
 class BookList extends Component{
 
   renderList(){
-    return this.props.books.map((book) => {
+    return this.props.books.map( (book) => {
       return(
         <li
           key={book.title}
